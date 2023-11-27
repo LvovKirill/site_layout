@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "PTSans";
+    border:1px solid blue;
+}
+
+.body{
+    display: block;
+}
+
+.header{
+    display: flex;
+    background: grey;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+
+
+    vertical-align: middle;
+}
+
+.header div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.phone{
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.phone span, img, button{
+    vertical-align: middle;
+}
+
+.phone button{
+    border-radius: 5px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+
+.logo{
+    justify-content: center;
+    position: absolute;
+    left: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.logo img, .logo span{
+    /* border:1px solid green; */
+    vertical-align: middle;
+}
+
+.hello_section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* height: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(img/Blue\ BG.png);
+    border:1px solid red;
+}
+
+
+.img_faucet{
+    position: absolute;
+    height: auto;
+    width: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+.hello_section h1{
+    display: inline;
+    position: relative;
+    height: 100%;
+    left: 100px;
+    right: 100px;
+    border:1px solid greenyellow;
+}
+
+.hello_section h1 div span{
+    top: 50px;
+    display: flex;
+}
+
+.hello_section .id1{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+.hello_section img{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.hello_section div ul{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.hello_section div ul :hover{
+    font-size: 20px;
+    color: orange;
+    text-decoration: none;
+}
+
+.hello_section span{
+    color: white;
+    font-size: 80px;
+}
+
+.discription{
+    height: 1000px;
+}
+
+/* discription */
+
+.discription{
+    background: gainsboro;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.discription div span h1{
+    color: orange;
+}
+
+.discription div div{
+    display: flex;
+}
+
+.discription div div{
+    display: contents;
+}
+
+
+
+@font-face {
+	font-family: 'PTSans'; 
+	src: url(/fonts/PTSans-Regular.ttf); 
+}
