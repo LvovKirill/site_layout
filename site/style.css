@@ -193,6 +193,27 @@ html{
     padding: 1rem 0rem 3rem;
 }
 
+.testimonials .right-side{
+    flex: 1 1 40rem;
+}
+
+.testimonials .right-side .box{
+    margin: 1rem;
+    padding: 2rem 2.5rem;
+}
+
+.testimonials .right-side .box i{
+    font-size: 4rem;
+    color: orangered;
+    margin-bottom: 1rem;
+}
+
+.testimonials .right-side .box p{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
 
 
 @keyframes rotate{

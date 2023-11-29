@@ -85,7 +85,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 700px;
     width: 100%;
     /* height: 100%; */
     background-size: cover;
@@ -97,6 +97,7 @@
 
 .img_faucet{
     position: absolute;
+    display: inline;
     height: auto;
     width: auto;
     bottom: 0px;
@@ -104,13 +105,14 @@
 }
 
 .hello_section h1{
-    display: inline;
     position: relative;
     height: 100%;
-    left: 100px;
-    right: 100px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
     border:1px solid greenyellow;
 }
+
 
 .hello_section h1 div span{
     top: 50px;
@@ -123,23 +125,24 @@
     top: 100px;
 }
 
-.hello_section img{
+/* .hello_section img{
     display: inline-block;
     position: absolute;
     bottom: 0;
     right: 0;
 
-}
+} */
 
-.hello_section div ul{
+.hello_section div ul li a{
     font-size: 20px;
     color: white;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    list-style: none;
 }
 
 
-.hello_section div ul :hover{
+.hello_section div ul a:hover{
     font-size: 20px;
     color: orange;
     text-decoration: none;
@@ -163,18 +166,38 @@
     padding-right: 100px;
 }
 
-.discription div span h1{
+.discription span h1{
     color: orange;
+    display: inline;
 }
 
-.discription div div{
-    display: flex;
+.discription span{
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.discription div div{
-    display: contents;
+
+.discription div div h1 span{
+    display: block;
 }
 
+.discription div div h1{
+    display: inline;
+    font-size: 10px;
+}
+
+.discription div div img{
+    display: inline;
+    height: 30px;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text .about{
+    width: 50%;
+}
 
 
 @font-face {
