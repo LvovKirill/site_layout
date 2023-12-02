@@ -97,8 +97,7 @@
 
 .img_faucet{
     position: absolute;
-    display: inline;
-    height: auto;
+    height: 70%;
     width: auto;
     bottom: 0px;
     right: 0px;
@@ -110,6 +109,7 @@
     width: 100%;
     padding-left: 100px;
     padding-right: 100px;
+    display: flex;
     border:1px solid greenyellow;
 }
 
@@ -120,6 +120,12 @@
 }
 
 .hello_section .id1{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+.hello_section h1 img{
     display: inline-block;
     position: relative;
     top: 100px;
@@ -153,10 +159,6 @@
     font-size: 80px;
 }
 
-.discription{
-    height: 1000px;
-}
-
 /* discription */
 
 .discription{
@@ -164,7 +166,20 @@
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.discription span{
+    align-items: center;
+    align-content: center;
+    width: 40%;
+}
+
+.about{
+    width: 40%;
+}
+
 
 .discription span h1{
     color: orange;
@@ -189,15 +204,116 @@
 .discription div div img{
     display: inline;
     height: 30px;
+    color: black;
 }
 
 .about-text{
     width: 50%;
 }
 
-.about-text .about{
+.discription div div{
+    display: flex;
+    
+}
+
+.about{
+    display: table;
+}
+
+.about div{
+    display: table;
+}
+
+.about div img{
+    display: table-cell;
+}
+
+.about div h1{
+    display: table-cell;
+}
+
+/* produkts_section */
+
+.produkts_section{
+    background: white;
+    position: relative;
+    display: flex;
+}
+
+.produkts_section .div1_produkts_section{
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    right: 100px;
+    left: 100px;
+
+}
+
+.produkts_section div span{
+    display: block;
+    font-size: 30px;
+}
+
+.produkts_section div ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produkts_section div ul li{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.produkts_section div ul li div{
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+
+
+.produkts_section div ul li img{
+    height: 350px;
+    width: 287px;
+}
+
+.produkts_section div ul li p{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+/* collection */
+
+.collection{
+    position: relative;
+    display: flex;
+}
+
+.div1_collection{
+    position: absolute;
+    justify-content: center;
+}
+
+.div1_collection div{
+    width: 50%;
+    display: inline;
+    background-color: gray;
+}
+
+.div1_collection img{
+    display: inline;
     width: 50%;
 }
+
+
+
+
+
 
 
 @font-face {
