@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid red; */
+    font-family: 'Montserrat';
 }
 
 
@@ -39,6 +40,7 @@ justify-content: center;
     color: white;
     /* max-width: 75%; */
     left: 20%;
+    padding-right: 20px;
 }
 
 .red_text{
@@ -50,7 +52,7 @@ justify-content: center;
     display: block;
     margin-top: 30px;
     color: white;
-    max-width: 70%;
+    /* max-width: 70%; */
 }
 
 .s1_div3 button{
@@ -106,4 +108,10 @@ justify-content: center;
 .s4{
     background-color: saddlebrown;
     height: 500px;
+}
+
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Black.ttf);
 }
