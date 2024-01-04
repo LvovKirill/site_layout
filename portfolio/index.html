@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="menu">
+
+        <span>Kirill Lvov</span>
+
+        <ul class="menu_mini">
+            <li><a href="#section1Wrap">Обо мне</a></li>
+            <li><a href="#section2Wrap">Технологии</a></li>
+            <li><a href="#section3Wrap">Инструменты</a></li>
+            <li><a href="#section4Wrap">Проекты</a></li>
+        </ul>
+        <button class="contact_button">Свяжитесь со мной</button>
+
+        <!-- burger-menu -->
+
+        <button class="menu_button">
+            <img class="menu_button_img" src="./img/menu-img.svg"></img>
+        </button>
+
+    <div class="wrap_menu_mini">
+        <ul class="menu_mini_bg">
+            <li><a>Обо мне</a></li>
+            <li><a>Технологии</a></li>
+            <li><a>Инструменты</a></li>
+            <li><a>Проекты</a></li>
+        </ul>
+        <button class="contact_button_bg">Свяжитесь со мной</button>
+    </div>
+
+        <!-- burger-menu -->
+
+
+    </nav>
+
+
+
+    <div id="section1Wrap" class="section1Wrap">
+
+    <div class="section1WrapFIO">
+        <div class="fioWrap">
+            <h1>Львов Кирилл</h1>
+            <span>frontend разработчик</span>
+        </div>
+
+    <img class="ava" src="./img/ava.jpeg"></img>
+
+    </div>
+
+    <span class="code_run">flkdsfdwwanedldewqDqdsdadqwdqwde</span>
+
+
+    </div>
+
+
+
+
+
+
+
+
+<div id="section2Wrap" class="section2Wrap">
+    <h1>Обо мне</h1>
+    <span>Александра - талантливый и преданный Frontend разработчик с опытом работы в сфере веб-разработки. Я обладаю навыками разработки интерактивных и отзывчивых веб-приложений с использованием передовых технологий и инструментов.
+
+        Мой экспертный опыт включает в себя создание элегантных и эффективных пользовательских интерфейсов с помощью HTML, CSS и JavaScript. Я имею глубокое понимание основных принципов разработки и оптимизации для разных платформ и устройств, включая мобильные устройства.
+        
+        Я способен точно переносить дизайн и макеты в живые веб-страницы с помощью CSS и Bootstrap, а также разрабатывать функциональность с использованием фреймворков JavaScript, таких как jQuery и Vue.js. Я также имею опыт работы с системами управления версиями (Git) и знание базовых концепций бэкенд разработки.
+    </span>
+
+</div>
+
+
+
+
+
+
+
+<div id="section3Wrap" class="section3Wrap">
+
+    <h1>Технологии</h1>
+    
+    <div class="teh_stack1">
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//html.svg">
+        <span>html</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//css.svg">
+        <span>css</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//scss.svg">
+        <span>scss</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//js.svg">
+        <span>java script</span>
+        </div>
+
+    </div>
+
+    <div class="teh_stack2">
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img/ts.svg">
+        <span>type script</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//react.svg">
+        <span>react</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//redux.svg">
+        <span>redux</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//react-router.svg">
+        <span>react router</span>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+<div id="section4Wrap" class="section4Wrap">
+
+    <h1>Инструменты</h1>
+    
+    <div class="teh_stack1">
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//vscode.svg">
+        <span>vs code</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//webpack.svg">
+        <span>webpack</span>
+        </div>
+
+        <div class="teh_stack_img_container">
+        <img class="teh_stack_img" src="./img//git.svg">
+        <span>git</span>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<div class="section5Wrap">
+
+    <img class="ava" src="./img/ava.jpeg"></img>
+
+    <div class="section5Wrap_container">
+    <h1>Свяжитесь со мной</h1>
+
+    <form>
+        <input placeholder="email">
+        <input placeholder="имя">
+        <input placeholder="сообщение">
+        <button>Отправить</button>
+    </form>
+</div>
+    
+    
+</div>
+
+
+
+
+
+
+<script>
+    const menu_mini = document.querySelector(".wrap_menu_mini")
+    const burger_btn = document.querySelector(".menu_button")
+    const burger_img = document.querySelector(".menu_button_img")
+
+
+
+    burger_btn.onclick = function(){
+
+       if(menu_mini.classList.contains('open')){
+        burger_img.src = './img//menu-img.svg'
+        
+        menu_mini.classList.remove('open')
+       }else{
+        burger_img.src = './img//cross-svgrepo-com.svg'
+        menu_mini.classList.add('open')
+       }
+    
+    //    menu_mini.classList.toggle('open')
+
+
+    }
+
+</script>
+
+
+
+
+
+</body>
+</html>
